@@ -6,4 +6,8 @@ create or replace api integration git_api_integration
     enabled = true
     allowed_authentication_secrets = all;
 
+
+CREATE OR REPLACE WAREHOUSE SNOWPARK_ML_WH
+WITH WAREHOUSE_SIZE = 'MEDIUM';
+
 --https://github.com/azar-c/Credit-Limit-Increase-Classification
