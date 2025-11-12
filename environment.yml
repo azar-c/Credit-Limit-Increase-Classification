@@ -2,6 +2,6 @@ name: app_environment
 channels:
   - snowflake
 dependencies:
-  - plotly=6.3.0
+  - plotly=*
   - snowflake-ml-python=*
   - snowflake-snowpark-python=*
